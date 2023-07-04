@@ -1,0 +1,20 @@
+/* estilos nav */
+.nav{
+    background-color: var(--clr-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.nav-lista{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}.iconos-nav{
+    margin: .7rem;
+    color: var(--clr-withe);
+    
+}
+.iconos-nav:hover{
+    color: var(--clr-principal);
+    transition: .3s;
+}

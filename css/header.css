@@ -1,0 +1,40 @@
+/* Estilos header */
+.header{
+    background-color: var(--clr-principal);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.lista-derecha, .lista-izquierda{
+    display: flex;
+    font-size: 1rem;
+}
+.iconos-derecha, .iconos-izquierda{
+    color: var(--clr-withe) ;
+}
+.lista-derecha{
+    
+    justify-content: flex-end;
+    gap: 2rem;
+    padding: 1rem;
+}
+.lista-izquierda{
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+}
+/* centrar logo */
+.header-centro{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.logo{
+    margin: auto;
+}
+
+/* efectos hover */
+.iconos-derecha:hover,.iconos-izquierda:hover{
+    color: var(--clr-black);
+    transition: .3s;
+}

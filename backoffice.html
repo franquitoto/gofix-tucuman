@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/backoffice.css" />
+    <title>Backoffice</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-izquierda">
+        <ul class="lista-izquierda">
+          <li>
+            <a class="icono-facebook iconos-izquierda">
+              <i class="bi bi-facebook">/gofixtucuman</i>
+            </a>
+          </li>
+          <li>
+            <a class="icono-instagram iconos-izquierda">
+              <i class="bi bi-instagram">/gofixtucuman</i>
+            </a>
+          </li>
+          <li>
+            <a class="icono-linkedin iconos-izquierda">
+              <i class="bi bi-linkedin">/gofixtucuman</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-centro">
+        <img class="logo" src="./img/logo.jpg" alt="logo" />
+      </div>
+      <div class="header-derecha">
+        <ul class="lista-derecha">
+          <li>
+            <a href="" class="iconos-derecha">
+              <i class="bi bi-suit-heart"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" class="iconos-derecha">
+              <i class="bi bi-person"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" class="iconos-derecha">
+              <i class="bi bi-bag-check"></i> $0,0
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <nav class="nav">
+      <ul class="nav-lista">
+        <li>
+          <a href="index.html" class="iconos-nav">Inicio</a>
+        </li>
+        <li>
+          <a class="iconos-nav">Productos</a>
+        </li>
+        <li>
+          <a class="iconos-nav">Locales</a>
+        </li>
+        <li>
+          <a class="iconos-nav">Contacto</a>
+        </li>
+        <li>
+          <a href="" class="iconos-nav"><i class="bi bi-gear"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="contenedor-principal">
+      <aside class="aside"></aside>
+      <main class="main">
+        <div class="contenedor">
+          <form class="form" id="formProductos">
+            <p id="heading">Agrega un nuevo producto</p>
+            <div class="flex">
+
+            </div>
+            <div class="field">
+              <input
+                autocomplete="off"
+                placeholder="Nombre del producto"
+                class="input-field"
+                type="text"
+                name="nombre"
+              />
+            </div>
+            <div class="field">
+              <input
+                autocomplete="off"
+                placeholder="Categoria"
+                class="input-field"
+                type="text"
+                name="categoria"
+              />
+            </div>
+            <div class="field">
+              <input
+                autocomplete="off"
+                placeholder="Precio"
+                class="input-field"
+                type="number"
+                name="precio"
+              />
+            </div>
+            <div class="field textarea">
+              <textarea
+                autocomplete="off"
+                placeholder="Descripcion"
+                class="input-field"
+                type="text"
+                name="descripcion"
+              ></textarea>
+            </div>
+            <div class="field">
+              <input
+                autocomplete="off"
+                placeholder="Modelo"
+                class="input-field"
+                type="text"
+                name="precio"
+              />
+            </div>
+            <div class="field">
+              <input
+                autocomplete="off"
+                placeholder="Memoria"
+                class="input-field"
+                type="number"
+                name="capacidad"
+              />
+            </div>
+            <div class="field">
+              <input
+                autocomplete="off"
+                placeholder="Marca"
+                class="input-field"
+                type="number"
+                name="marca"
+              />
+            </div>
+            <div class="field">
+              <input
+                autocomplete="off"
+                placeholder="Color"
+                class="input-field"
+                type="number"
+                name="color"
+              />
+            </div>
+            
+            <div class="custom-file-input">
+              <label for="file" class="footer">
+                <svg
+                  fill="#000000"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M15.331 6H8.5v20h15V14.154h-8.169z"></path>
+                    <path d="M18.153 6h-.009v5.342H23.5v-.002z"></path>
+                  </g>
+                </svg>
+                <span id="file-name" class="file-name"
+                  >Seleccionar archivo</span
+                >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z"
+                      stroke="#000000"
+                      stroke-width="2"
+                    ></path>
+                    <path
+                      d="M19.5 5H4.5"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    ></path>
+                    <path
+                      d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z"
+                      stroke="#000000"
+                      stroke-width="2"
+                    ></path>
+                  </g>
+                </svg>
+              </label>
+              <input
+                id="file"
+                type="file"
+                class="file-input"
+                onchange="updateFileName()"
+              />
+            </div>
+            <div class="btn">
+              <button class="button1">Enviar</button>
+            </div>
+          </form>
+          <div class="contenedor-img">
+            <div class="container">
+              <div class="headerFile">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M7 10V9C7 6.23858 9.23858 4 12 4C14.7614 4 17 6.23858 17 9V10C19.2091 10 21 11.7909 21 14C21 15.4806 20.1956 16.8084 19 17.5M7 10C4.79086 10 3 11.7909 3 14C3 15.4806 3.8044 16.8084 5 17.5M7 10C7.43285 10 7.84965 10.0688 8.24006 10.1959M12 12V21M12 12L15 15M12 12L9 15"
+                      stroke="#000000"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+                <p>Selecciona un archivo</p>
+              </div>
+              <div class="custom-file-input">
+                <label for="file" class="footer">
+                  <svg
+                    fill="#000000"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path d="M15.331 6H8.5v20h15V14.154h-8.169z"></path>
+                      <path d="M18.153 6h-.009v5.342H23.5v-.002z"></path>
+                    </g>
+                  </svg>
+                  <span id="file-name" class="file-name"
+                    >Seleccionar archivo</span
+                  >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M5.16565 10.1534C5.07629 8.99181 5.99473 8 7.15975 8H16.8402C18.0053 8 18.9237 8.9918 18.8344 10.1534L18.142 19.1534C18.0619 20.1954 17.193 21 16.1479 21H7.85206C6.80699 21 5.93811 20.1954 5.85795 19.1534L5.16565 10.1534Z"
+                        stroke="#000000"
+                        stroke-width="2"
+                      ></path>
+                      <path
+                        d="M19.5 5H4.5"
+                        stroke="#000000"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      ></path>
+                      <path
+                        d="M10 3C10 2.44772 10.4477 2 11 2H13C13.5523 2 14 2.44772 14 3V5H10V3Z"
+                        stroke="#000000"
+                        stroke-width="2"
+                      ></path>
+                    </g>
+                  </svg>
+                </label>
+                <input
+                  id="file"
+                  type="file"
+                  class="file-input"
+                  onchange="updateFileName()"
+                />
+              </div>
+            </div>
+            <div class="producto">
+              <div class="tarjeta-producto" id="tarjeta-producto">
+                <div class="header-producto">
+                  <p class="categoria" id="categoria">Categoria</p>
+                  <p class="titulo-producto" id="titulo-producto">
+                    Titulo producto
+                  </p>
+                </div>
+                <div class="contenedor-img">
+                  <img
+                    class="imagen-producto"
+                    id="imagen-producto"
+                    src="./img/motoe.png"
+                    alt=""
+                  />
+                </div>
+                <div class="footer-producto">
+                  <p class="precio-producto" id="precio-producto">$50,000</p>
+                  <button class="agregar-carrito">
+                    <i class="bi bi-pencil-square"></i>
+                  </button>
+                  <button class="agregar-carrito">
+                    <i class="bi bi-bag-plus-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="div-derecha"></div>
+    </div>
+
+    <script src="./js/efectos.js"></script>
+    <script src="./js/backoffice.js"></script>
+    <!-- <script src="./js/productos.js"></script> -->
+  </body>
+</html>
